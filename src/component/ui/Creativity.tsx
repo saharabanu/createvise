@@ -9,7 +9,7 @@ import line from '../../assets/images/Line.png'
 
 const Creativity = () => {
   return (
-    <div >
+    <div className={variables.CreativeMainDiv}>
       <Row  >
         <Col span={12}>
           <div className={variables.creativity}>
@@ -20,7 +20,7 @@ const Creativity = () => {
         </Col>
         <Col span={12}>
         <div>
-        <Image src={feature}  height={300} alt="feature"  style={{width:"100%"}}/>
+        <Image src={feature}  height={400} alt="feature"  style={{width:"100%"}}/>
           </div>
         </Col>
       </Row>
