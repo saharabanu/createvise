@@ -12,7 +12,8 @@ export default function Home() {
     <Navbar/>
     <Banner/>
     <Creativity/>
-    <Freedom/>
+   
+    <Freedom/> 
     <Footer/>
    </div>
   )

@@ -14,7 +14,7 @@ const Creativity = () => {
         <Col span={12}>
           <div className={variables.creativity}>
             <h3>Unleash your creativity in your curative zone !</h3>
-            <p>Whether you're a creative enthusiast or a professional designer, <br /> Creativise zone is the first browser based design tool that allows to  <br />create stunning graphics with more user friendly experience. It has the <br /> power of stitching your .psd (Photoshop) and .ai (Illustrator) files with <br />intuitive features to meet all your design needs. This tool prioritizes user- <br />friendliness and aims to provide a seamless and enjoyable design <br /> experience like never before.</p>
+            <p>Whether you're a creative enthusiast or a professional designer, <br/> Creativise zone is the first browser based design tool that allows to  <br />create stunning graphics with more user friendly experience. It has the <br /> power of stitching your .psd (Photoshop) and .ai (Illustrator) files with <br />intuitive features to meet all your design needs. This tool prioritizes user- <br />friendliness and aims to provide a seamless and enjoyable design <br /> experience like never before.</p>
             <button className={variables.featureBtn}>Explore Now <Image src={line} width={30} height={10} alt="" className={variables.btnImg}/></button>
           </div>
         </Col>

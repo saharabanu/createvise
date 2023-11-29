@@ -12,7 +12,7 @@ import { Col, Row } from 'antd';
 const Footer = () => {
   return (
     <div className={variables.footer}>
-        <div>
+       
             <div className={variables.footerFirstPart}>
          <Image src={fLogo} alt="Logo"/>
          <p>Empowering Curators, Enriching Perspectives</p>
@@ -25,7 +25,8 @@ const Footer = () => {
                 <input type="button" value="Notify Me"  className={variables.submitBtn}/>
                 </div>
                 </Col>
-                <Col span={8}>
+                <Col span={16}>
+                <div style={{display:"flex", justifyContent:'space-between', alignItems:"center",paddingLeft:'100px'}}>
                 <div className={variables.footerIcon}>
                 <Image src={inst} alt="Logo"/>
                 <Image src={fb} alt="Logo"/>
@@ -33,15 +34,19 @@ const Footer = () => {
                 <Image src={pint} alt="Logo"/>
                 <Image src={twt} alt="Logo"/>
                 </div>
-                </Col>
-
-                <Col span={8}>
-                <div className={variables.copyright}>
-                <p>@2023 Creativise, All rights reserved.</p>
+                <div>
+                <span className={variables.copyright}>@2023 Creativise, All rights reserved.</span>
+                </div>
                 </div>
                 </Col>
+
+                {/* <Col span={8}>
+                
+                <span className={variables.copyright}>@2023 Creativise, All rights reserved.</span>
+                
+                </Col> */}
             </Row>
-        </div>
+        
 
     </div>
   )
