@@ -4,11 +4,15 @@
 $primary-color:#5552B9;
 $secondary-color:#E0E0E3;
 $grey-color:#939297;
+$white-color:#FFF;
 $lightWhite-color:#E0E0E3;
 
-$background-color1: #fff;
+$background-color1: #FFF;
 $primary-background-color: #5552B9;
+$banner-background-color: linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 227, 236, 0) 100.36%, rgba(72, 69, 156, 0) 106.36%);
+
  
+// navbar style added start
 .mainMenu{
   display: flex;
   justify-content: space-between;
@@ -84,3 +88,49 @@ $primary-background-color: #5552B9;
   font-size: 5px;
   margin: 0 10px;
 }
+
+// navbar style added end
+
+
+// banner style added start
+
+.banner{
+  background: $banner-background-color;
+  width:100%;
+  padding: 70px 0;
+  color: $white-color;
+}
+.banner h2{
+  font-size: 75px;
+  
+  letter-spacing: -5px;
+  line-height: 1;
+  
+}
+.banner p{
+  font-size: 12px;
+  padding: 30px 40px;
+}
+.btnDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.btn{
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: $primary-background-color;
+  color:$white-color;
+  cursor: pointer;
+  
+}
+
+
+
+// banner style added end

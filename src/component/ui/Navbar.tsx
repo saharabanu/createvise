@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className={variables.fullNavMain}>
           <div>
             <a href="/">
-              <Image src={logo} width={100} height={50} alt="logo" />
+              <Image src={logo} width={150} height={50} alt="logo" />
             </a>
           </div>
           <div className={variables.mainMenu}>
