@@ -17,16 +17,16 @@ const Navbar = () => {
             <menu className="">
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="/">Products</a>
+                  <a href="#">Products</a>
                 </li>
                 <li>
-                  <a href="/">About Us</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li>
-                  <a href="/">Blogs</a>
+                  <a href="#">Blogs</a>
                 </li>
               </ul>
             </menu>
@@ -35,13 +35,13 @@ const Navbar = () => {
               <ul>
                 <li>
                   {" "}
-                  <a href="/" className={variables.navLogin}>
+                  <a href="#" className={variables.navLogin}>
                     Login
                   </a>{" "}
                 </li>
                 <li className={variables.bullet}> <div></div></li>
                 <li>
-                <a href="/" className={variables.navSignup}>
+                <a href="#" className={variables.navSignup}>
                   SignUp
                 </a>
               </li>

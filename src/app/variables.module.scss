@@ -9,6 +9,7 @@ $lightWhite-color:#E0E0E3;
 
 $background-color1: #FFF;
 $primary-background-color: #5552B9;
+$white-background: #FFF;
 $banner-background-color: linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 227, 236, 0) 100.36%, rgba(72, 69, 156, 0) 106.36%);
 //linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 227, 236, 0) 100.36%, rgba(72, 69, 156, 0) 106.36%)
 // linear-gradient(#5552B9,#5552B9 50% ,#827FDA 0%, #5552B9 100%,#48459C 0%)
@@ -172,5 +173,68 @@ $banner-background-color: linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 2
 }
 
 // creativity style added end
+
+
+// footer start
+.footer{
+  background-color: $primary-background-color;
+  padding: 20px 0;
+  color:$white-color
+  
+}
+.footerFirstPart{
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footerFirstPart p{
+  padding-bottom: 60px;
+}
+
+
+.footerLastPart{
+ padding-left: 20px
+}
+.input{
+ border: none;
+ outline: none;
+ background-color: $white-background;
+ padding: 13px 17px;
+ border-radius: 50px;
+ position: relative;
+ width: 80%;
+}
+.submitBtn{
+  border: none;
+ outline: none;
+ background-color:$primary-background-color;
+ padding: 11px 15px;
+ border-radius: 50px;
+ position: absolute;
+ right:86px;
+ top:2px;
+ color:$white-color
+}
+
+.footerIcon {
+  padding-left:  20px;
+ text-align: center;
+}
+.footerIcon img{
+//  padding: 0px 10px;
+ width: 15px;
+ height: 15px;
+ margin: 0px 10px;
+ 
+}
+.copyright{
+padding-left: 140px;
+}
+
+
+
+
+
+// footer end
 
 
