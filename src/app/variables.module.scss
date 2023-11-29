@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+
+$primary-color:#5552B9;
+$secondary-color:#E0E0E3;
+$grey-color:#939297;
+$lightWhite-color:#E0E0E3;
+
+$background-color1: #fff;
+$primary-background-color: #5552B9;
+ 
+.mainMenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainMenu ul li {
+  display: inline-block;
+}
+.header{
+  background:$background-color1 ;
+}
+
+
+.fullNavMain {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  align-items: center;
+  padding: 0 20px;
+
+}
+
+.mainMenu menu ul li a {
+  text-decoration: none;
+  color: $grey-color;
+  padding: 0 12px;
+  transition: 0.4s ease-in-out;
+  font-weight: 600;
+  
+
+}
+
+.mainMenu menu ul li a:hover {
+  color:$primary-color;
+
+}
+.navLastDiv{
+  display: flex;
+  align-items: "center"
+}
+
+
+.navLastDiv a{
+  text-decoration: none;
+}
+
+.navLastDiv ul li {
+  list-style: none;
+}
+.navLogin{
+  background-color: $lightWhite-color;
+  border-radius: 5px;
+  padding: 7px 10px;
+  cursor: pointer;
+  color: $primary-color;
+  font-weight: 600;
+}
+
+.navSignup{
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  color: $primary-color;
+  
+  border: 1px solid $primary-color;
+}
+.bullet{
+  background-color: $primary-background-color;
+  width:7px;
+  height: 7px;
+  border-radius: 50%;
+  font-size: 5px;
+  margin: 0 10px;
+}
