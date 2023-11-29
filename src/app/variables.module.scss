@@ -10,6 +10,8 @@ $lightWhite-color:#E0E0E3;
 $background-color1: #FFF;
 $primary-background-color: #5552B9;
 $banner-background-color: linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 227, 236, 0) 100.36%, rgba(72, 69, 156, 0) 106.36%);
+//linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 227, 236, 0) 100.36%, rgba(72, 69, 156, 0) 106.36%)
+// linear-gradient(#5552B9,#5552B9 50% ,#827FDA 0%, #5552B9 100%,#48459C 0%)
 
  
 // navbar style added start
@@ -134,3 +136,41 @@ $banner-background-color: linear-gradient(166.14deg, #5552B9 45.85%, rgba(227, 2
 
 
 // banner style added end
+
+
+// creativity style added start
+
+.creativity{
+  padding-left: 20px ;
+  padding-top: 40px;
+}
+.creativity h3{
+  font-size: 30px;
+  font-weight: semibold;
+  color: $primary-color;
+  
+}
+.creativity p{
+  font-size: 14px;
+  font-weight: 300;
+  color: $primary-color;
+  padding: 20px 0;
+  
+}
+.featureBtn{
+  border: none;
+  background-color: transparent;
+  color: $primary-color;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+
+}
+.btnImg{
+  padding-left:5px ;
+}
+
+// creativity style added end
+
+
