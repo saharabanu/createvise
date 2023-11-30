@@ -1,9 +1,23 @@
 import variables from "../../app/variables.module.scss";
 import { Button, Flex, Segmented } from 'antd';
+import Creativity from "./Creativity";
 
 const Banner = () => {
+
+  // const gradientStyle = {
+  //   background: 'linear-gradient(to right, #ff6e7f, #bfe9ff)',
+  //   width: "100%",
+  //   height: '200px',
+  //   borderRadius: '10px',
+  //   display: 'flex',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   color: '#fff',
+  //   fontSize: '24px',
+  // };
+  // style={gradientStyle}
   return (
-    <div className={variables.banner}>
+    <div className={variables.banner} >
       <Flex gap="middle" align="center" justify="center" vertical>
         <div>
         <h2>Empowering Curators, 
@@ -21,6 +35,7 @@ const Banner = () => {
        </div>
         </div>
       </Flex>
+      {/* <Creativity/> */}
     </div>
   );
 };

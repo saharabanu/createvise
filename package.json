@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-spring/parallax": "^9.7.3",
     "antd": "^5.11.5",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-scroll-parallax": "^3.4.5",
+    "react-spring": "^9.7.3",
     "sass": "^1.69.5"
   },
   "devDependencies": {
