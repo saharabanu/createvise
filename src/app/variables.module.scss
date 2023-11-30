@@ -16,6 +16,8 @@ $container-padding: 0 30px;
 
 
 
+
+
 // navbar style added start
 .mainMenu{
   display: flex;
@@ -104,7 +106,7 @@ $container-padding: 0 30px;
 
 .banner{
   background:$banner-background-color;
-  width:100%;
+  max-width:100%;
   padding: 90px 0;
   color: $white-color;
 }
@@ -184,6 +186,14 @@ $container-padding: 0 30px;
 .CreativeMainDiv{
   margin-bottom: 50px;
 }
+
+// for responsive 
+.closeBtn{
+  display: none;
+  
+  }
+
+
 
 // creativity style added end
 
@@ -311,6 +321,82 @@ border: none;
 
 
 // footer end
+
+
+// media query
+
+@media only screen and (max-width: 786px) {
+
+
+  // navbar responsive
+.mainMenu{
+  display: none;
+}
+.menuMobile menu ul li{
+  list-style: none;
+  padding: 10px 0;
+}
+.menuMobile a{
+ text-decoration: none;
+ font-size: 20px;
+}
+.navLastDiv{
+  display: none;
+}
+  .menuMobile{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 ;
+    background-color: $white-background;
+    left: 0;
+    top:37px;
+    transition: all 0.4s ease-out;
+    width: 100%;
+}
+.closeBtnDiv{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+  .closeBtn{
+  display: block;
+  margin-left: 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color:#000;
+  font-size: 30px;
+  width:40px;
+  border: 1px solid $primary-color;
+}
+// navbar responsive end
+
+// freedom part
+
+
+
+.freedomImg2{
+ 
+  top:310px;
+  
+}
+.freedomImg3{
+  height: 150px;
+}
+.freedomImg4{
+  
+  top:180px;
+  left: 0;
+  height: 300px;
+  width: auto;
+}
+
+
+}
+
+
 
 
 

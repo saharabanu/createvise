@@ -1,8 +1,11 @@
 import Image from "next/image";
 import variables from "../../app/variables.module.scss";
 import logo from "../../assets/images/Creativise Logo SVG 2.png";
+import { useState } from "react";
+import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
+  const [isMobile, setIsMobile] = useState<boolean>(false)
   return (
     <>
       <header className={variables.header}>
@@ -13,7 +16,7 @@ const Navbar = () => {
               <Image src={logo} width={150} height={50} alt="logo" />
             </a>
           </div>
-          <div className={variables.mainMenu}>
+          <div className={ isMobile ? variables.menuMobile : variables.mainMenu} onClick={() => setIsMobile(false)}>
             <menu className="">
               <ul>
                 <li>
@@ -49,6 +52,11 @@ const Navbar = () => {
 
               
             </div>
+          </div>
+          <div className={variables.closeBtnDiv}>
+          <button className={variables.closeBtn} onClick={() => setIsMobile(!isMobile)}>
+                    {isMobile ? <RxCross1 /> : <RxHamburgerMenu />}
+                  </button>
           </div>
         </div>
       </header>

@@ -28,11 +28,12 @@ export default function Home() {
           
 
           <Banner />
+          
           <Creativity />
-
+ 
           <Freedom />
           
-          <Footer />
+          <Footer /> 
         </div>
       </>
     </div>
